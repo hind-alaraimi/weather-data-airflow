@@ -1,4 +1,3 @@
-# weather-data-airflow
 # 🌦️ Weather ETL Pipeline with Airflow, Python, MySQL & Power BI
 
 This project demonstrates a complete ELT (Extract, Load, Transform) pipeline for weather data collection, processing, and visualization using Apache Airflow, Python, MySQL, and Power BI.
