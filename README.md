@@ -5,9 +5,22 @@ This project demonstrates a complete ELT (Extract, Load, Transform) pipeline for
 ## Project Overview
 
 Over the course of one week, We built an automated data pipeline to collect and analyze real-time weather data.  
-Data was collected from an openWeatherMap API: https://openweathermap.org/ over 4 days for multiple cities and processed through the following stages:
+Data was collected from an openWeatherMap API: https://openweathermap.org/ over 4 days for multiple cities :
 
-- **Extraction** using Airflow and API requests  
-- **Transformation** using Pandas and Python scripts  
+![Extraction Stage](images/image1.png)
+
+and processed through the following stages:
+
+- **Extraction** using  pythonOperator
+- **Transformation** using pythonOperator and Pandas 
+  ![Transformation Stage](images/image2.png)
+
 - **Loading** into a MySQL database  
-- **Visualization** in Power BI and Apache Superset with dynamic dashboards  
+  ![Loading Stage](images/image3.png)
+
+- **Visualization** in Power BI and Apache Superset with dynamic dashboards
+   * Apache Superset
+  ![Visualization Stage](images/image4.png)
+  * Power BI : 
+   ![Visualization Stage](images/image5.png)
+  
