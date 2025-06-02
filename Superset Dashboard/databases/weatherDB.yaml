@@ -1,0 +1,13 @@
+database_name: weatherDB
+sqlalchemy_uri: mysql+pymysql://root:XXXXXXXXXX@localhost:3306/weather
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+uuid: eebd7c46-b424-4d8b-85de-f62bc78d1101
+version: 1.0.0
