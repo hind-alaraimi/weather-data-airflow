@@ -1,5 +1,4 @@
-**Weather ETL Pipeline with Airflow, Python,**  
-**MySQL & ( Power BI & Apache Superset )**
+# Weather ETL Pipeline with Airflow, Python<br>MySQL & ( Power BI & Apache Superset )
 
 This project demonstrates a complete ELT (Extract, Load, Transform) pipeline for weather data collection, processing, and visualization using openWeatherMap API, Apache Airflow, Python, MySQL and - Power BI (Windows) & Apache Superset (Linux Ubuntu) -.
 
