@@ -7,7 +7,7 @@ import pandas as pd
 
 # Ensure weather.py is in the path
 sys.path.append(os.path.dirname(__file__))
-from weather import extract, transform, load
+from weather_ELT import extract, transform, load
 
 default_args = {
     'start_date': datetime(2024, 1, 1),
